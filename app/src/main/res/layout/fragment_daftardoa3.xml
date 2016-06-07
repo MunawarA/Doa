@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#0aeb3f"
+    android:id="@+id/scrollView"
+    android:fillViewport="false">
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/view3"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#240df5" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa1"
+            android:text="Doa Hendak Tidur"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa1" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa2"
+            android:text="Doa Bangun Tidur"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa2" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa3"
+            android:text="Doa Bermimpi Baik"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa3" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa4"
+            android:text="Doa Bermimpi Buruk"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa4" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa5"
+            android:text="Doa Masuk WC"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa5" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa6"
+            android:text="Doa Keluar WC"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa6" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa7"
+            android:text="Doa Masuk Mesjid"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa7" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa8"
+            android:text="Doa Keluar Mesjid"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa8" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa9"
+            android:text="Doa Sebelum Berwudhu"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa9" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btnK3Doa10"
+            android:text="Doa Sesudah Berwudhu"
+            android:textAlignment="textStart"
+            android:onClick="onClickBtnK3Doa10" />
+
+    </LinearLayout>
+</ScrollView>
