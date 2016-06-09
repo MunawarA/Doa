@@ -21,7 +21,7 @@ public class ActivityDoa extends Activity {
     private Button btnPause;
     private Button btnStop;
     private MediaPlayer mp;
-    ZoomControls zoom;
+    //ZoomControls zoom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
